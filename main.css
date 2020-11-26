@@ -1,0 +1,607 @@
+	html, body
+	{
+		height: 100%;
+	}
+	
+	body
+	{
+		margin: 0px;
+		padding: 0px;
+		background: #191919;
+		font-family: 'Source Sans Pro', sans-serif;
+		font-size: 12pt;
+		font-weight: 400;
+		color: #4E4D4D;
+	}
+	
+	
+	h1, h2, h3
+	{
+		margin: 0;
+		padding: 0;
+	}
+	
+	p, ol, ul
+	{
+		margin-top: 0;
+	}
+	
+	ol, ul
+	{
+		padding: 0;
+		list-style: none;
+	}
+	
+	p
+	{
+		line-height: 180%;
+	}
+	
+	strong
+	{
+	}
+	
+	a
+	{
+		color: #383838;
+	}
+	
+	a:hover
+	{
+		text-decoration: none;
+	}
+	
+	.container
+	{
+		max-width: 1200px;
+		margin: 0px auto;
+	}
+
+
+/*********************************************************************************/
+/* Image Style                                                                   */
+/*********************************************************************************/
+
+	.logo1{
+		max-height: 182px;
+		max-width: 250px;
+		float: left;
+		margin-top: 0px;
+		margin-left: 5px;
+	}
+
+
+
+	.image
+	{
+		display: inline-block;
+	}
+	
+	.image img
+	{
+		display: block;
+		width: 100%;
+	}
+	
+	.image-full
+	{
+		display: block;
+		width: 100%;
+		margin-top: 120px;
+	}
+	
+
+	.image-left
+	{
+		float: left;
+		margin: 0 2em 2em 0;
+	}
+	
+	.image-centered
+	{
+		display: block;
+		margin: 0 0 2em 0;
+	}
+	
+	.image-centered img
+	{
+		margin: 0 auto;
+		width: auto;
+	}
+
+/*********************************************************************************/
+/* List Styles                                                                   */
+/*********************************************************************************/
+
+	ul.style1
+	{
+	}
+
+
+/*********************************************************************************/
+/* Social Icon Styles                                                            */
+/*********************************************************************************/
+
+	ul.contact
+	{
+		overflow:  hidden;
+		margin: 0em 0 3em 0;
+		padding-top: 1em;
+		text-align: center;
+	}
+	
+	ul.contact li
+	{
+		display: inline-block;
+		padding: 0em 0.30em;
+		font-size: 1em;
+	}
+	
+	ul.contact li span
+	{
+		display: none;
+		margin: 0;
+		padding: 0;
+	}
+	
+	ul.contact li a
+	{
+		color: #FFF;
+	}
+	
+	ul.contact li a:before
+	{
+		display: inline-block;
+		width: 40px;
+		height: 40px;
+		line-height: 40px;
+		text-align: center;
+		font-size: 2em;
+		color: rgba(255,255,255,.3);
+	}
+
+/*********************************************************************************/
+/* Major Styles                                                                  */
+/*********************************************************************************/
+
+	.major
+	{
+		overflow: hidden;
+		margin-bottom: 4em;
+		text-align: center;
+	}
+	
+	.major h2
+	{
+		letter-spacing: 0.10em;
+		text-transform: uppercase;
+		font-size: 3em;
+		font-weight: 700;
+		color: #3f3f3f;
+	}
+
+	.major .byline
+	{
+		display: block;
+		padding-top: 0.2em;
+		font-weight: 300;
+		font-size: 2em;
+	}
+
+/*********************************************************************************/
+/* Title Styles                                                                  */
+/*********************************************************************************/
+
+	.title
+	{
+		text-align: center;
+	}
+	
+	.title h2
+	{
+		letter-spacing: 0.10em;
+		text-transform: uppercase;
+		font-weight: 700;
+		color: #3f3f3f;
+	}
+
+	.title .byline
+	{
+		display: block;
+		padding-top: 1em;
+		font-weight: 300;
+		font-size: 1.1em;
+	}
+
+
+/*********************************************************************************/
+/* Button Style                                                                  */
+/*********************************************************************************/
+
+	.button
+	{
+		display: inline-block;
+		margin: 1em 0em;
+		padding: 1em 3em 1em 3em;
+		background: #2A70E8;
+		border-radius: 8px;
+		letter-spacing: 0.20em;
+		text-decoration: none;
+		text-align: center;
+		text-transform: uppercase;
+		font-weight: 400;
+		font-size: 0.90em;
+		color: #FFF;
+	}
+	
+	.button:before
+	{
+	}
+		
+/*********************************************************************************/
+/* Header                                                                        */
+/*********************************************************************************/
+
+	#header
+	{
+		background: black;
+	}
+
+/*********************************************************************************/
+/* Logo                                                                          */
+/*********************************************************************************/
+
+	#logo
+	{
+		padding: 4em 0em;
+		background: #FFF;
+		text-transform: uppercase;
+	}
+
+	#logo h1
+	{
+		text-align: center;
+		font-weight: 950;
+		font-size: 1.7em;
+		max-width: 1200px;
+	}
+	
+	#logo h1 a
+	{
+	}
+
+	#logo span
+	{
+		padding: 0em 0em 0em 0.5em;
+	}
+	
+	#logo h1:before
+	{
+		
+	}
+	
+	#logo a 
+	{
+		color: black;
+	}
+
+
+/*********************************************************************************/
+/* Menu                                                                          */
+/*********************************************************************************/
+
+	#menu ul
+	{
+		margin: 0;
+		padding: 20px 0px 20px 0px;
+		list-style: none;
+		line-height: normal;
+		text-align: center;
+
+	}
+	
+	#menu li
+	{
+		display: inline-block;
+	}
+	
+	#menu a
+	{
+		display: block;
+		padding: 1em 2em;
+		letter-spacing: 1px;
+		text-decoration: none;
+		text-transform: uppercase;
+		font-size: 1em;
+		font-weight: 700;
+		color: #FFF;
+	}
+	
+	#menu .current_page_item a
+	{
+		border-radius: 30px;
+		border: 1px solid;
+		border-color: rgba(255,255,255,.2);
+	}
+	
+	#menu a:hover
+	{
+		background-color: blue;
+	}
+
+
+	.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: black;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+/*********************************************************************************/
+/* Banner                                                                        */
+/*********************************************************************************/
+
+	#banner
+	{
+	}
+
+/*********************************************************************************/
+/* Page                                                                          */
+/*********************************************************************************/
+
+	#page-wrapper
+	{
+		background: #EEEEEE;
+
+	}
+
+	#page
+	{
+		overflow: hidden;
+		padding: 6em 0em;
+		max-width: 1400px;
+	}
+
+/*********************************************************************************/
+/* Content                                                                       */
+/*********************************************************************************/
+
+	#content
+	{
+		float: left;
+		text-align: justify;
+		max-width: 600px;
+	}
+	
+	#content .title
+	{
+		padding: 1em 2em 2em 2em;
+		text-align: center;
+	}
+	
+	#content h2
+	{
+		font-size: 2em;
+		max-width: 200;
+	}
+
+	#content h4
+	{
+		margin-left: 15px;
+		margin-right: 15px;
+	}
+	
+	#content .byline
+	{
+		padding-top: 0;
+		font-size: 1.5em;
+	}
+
+	.img{
+		display: block;
+		max-width: 200px;
+		height: 230px;
+
+	}
+	.img1{
+		display: block;
+		max-width: 200px;
+		height: 230px;
+	}
+	.img2{
+		display: block;
+		max-width: 200px;
+		height: 230px;
+
+	}
+	.img3{
+		display: block;
+		max-width: 200px;
+		height: 230px;
+
+	}
+
+/*********************************************************************************/
+/* Sidebar                                                                       */
+/*********************************************************************************/
+
+	#sidebar
+	{
+		float: right;
+		max-width: 588px;
+		margin-right: 5px;
+		margin-left: 5px;
+	}
+
+/*********************************************************************************/
+/* Footer                                                                        */
+/*********************************************************************************/
+
+	#footer
+	{
+	}
+
+
+
+/*********************************************************************************/
+/* Featured                                                                      */
+/*********************************************************************************/
+
+	#featured-wrapper
+	{
+		overflow: hidden;
+		padding: 5em 0em;
+		background: #FFF;
+	}
+	
+	#featured h2
+	{
+		text-align: center;
+	}
+
+	#featured .icon
+	{
+		position: relative;
+		display: block;
+		background: #2A70E8;
+		margin: 0px auto 20px auto;
+		line-height: 2.5em;
+		font-size: 4em;
+		text-align: center;
+		color: #FFF;
+	}
+
+	.column1,
+	.column2,
+	.column3,
+	.column4
+	{
+		max-width: 282px;
+		margin-left: 70px;
+
+	}
+	
+	.column1,
+	.column2
+	{
+		float: left;
+		margin-right: 24px;
+	}
+	
+	.column3
+	{
+		float: left;
+	}
+	
+	.column4
+	{
+		float: right;
+	}
+
+
+	.box{
+		max-height: 200px;
+		overflow: scroll;
+	}
+
+
+/* Float four columns side by side */
+.column {
+  float: left;
+  max-width: 250px;
+  padding: 0 10px;
+  margin-left: 40px;
+  
+  
+}
+
+/* Remove extra left and right margins, due to padding */
+.row {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+}
+
+
+
+/*********************************************************************************/
+/* Portfolio                                                                     */
+/*********************************************************************************/
+
+	#portfolio-wrapper
+	{
+		padding: 8em 0em 6em 0em;
+	}
+	
+	#portfolio
+	{
+		overflow: hidden;
+		text-align: center;
+	}
+	
+	#portfolio .major h2,
+	#portfolio .major .byline
+	{
+		color: rgba(255,255,255,0.9);
+	}
+	
+	#portfolio img
+	{
+		margin: 0;
+		padding: 0;
+	}
+	
+	#portfolio .box
+	{
+		padding: 30px;
+		background: #FFF;
+		border-radius: 0px 0px 8px 8px;
+		border-right: 1px solid #DADADA;
+		border-left: 1px solid #DADADA;
+	}
+
+	#contact .major h2,
+	#contact .major .byline
+	{
+		color: rgba(255,255,255,0.9);
+	}
